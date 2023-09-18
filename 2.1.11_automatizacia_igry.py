@@ -1,5 +1,5 @@
 def main():
-    num = input() # abcd -> badc
+    num = input()
 
     a, b, c, d = list(num)
     print(f'{b}{a}{d}{c}')
