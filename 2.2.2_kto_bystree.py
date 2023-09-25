@@ -1,8 +1,8 @@
 def main():
-    a = int(input(), 2)
+    a = int(input())
     b = int(input())
 
-    print(b - a)
+    print('Петя' if a > b else 'Вася')
 
 
 if __name__ == '__main__':
