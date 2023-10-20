@@ -1,0 +1,8 @@
+def main():
+    while input() != 'Три!':
+        print('Режим ожидания...')
+    print('Ёлочка, гори!')
+
+
+if __name__ == '__main__':
+    main()
